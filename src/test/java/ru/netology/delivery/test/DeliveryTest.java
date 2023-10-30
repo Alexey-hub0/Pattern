@@ -30,7 +30,7 @@ class DeliveryTest {
 
     @Test
     @DisplayName("Should successful plan and replan meeting")
-    void shouldSuccessfulPlanAndReplanMeeting() throws InterruptedException {
+    void shouldSuccessfulPlanAndReplanMeeting()  {
         var daysToAddForFirstMeeting = 4;
         var firstMeetingDate = DataGenerator.generateDate(daysToAddForFirstMeeting);
         var daysToAddForSecondMeeting = 7;
